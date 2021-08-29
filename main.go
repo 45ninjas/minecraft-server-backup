@@ -193,7 +193,7 @@ func Backup(server *ServerController) {
 	time.Sleep(1 * time.Second)
 
 	// Run Restic.
-	cmd := exec.Command("restic", "backup", os.Getenv("BACKUP_FILES"))
+	cmd := exec.Command("restic", "backup", "--files-from", ".backuplist")
 	server.SetProgress("Running restic", 50)
 	log.Println(cmd)
 	server.Tell(server.detailSelector, cmd.String(), "")
