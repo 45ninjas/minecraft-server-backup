@@ -1,0 +1,5 @@
+test-server/
+!test-server/start.sh
+!test-server/.env
+run.sh
+main

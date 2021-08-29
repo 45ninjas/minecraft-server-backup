@@ -1,0 +1,4 @@
+github.com/james4k/rcon v0.0.0-20210222224819-34a67ca2b2d6 h1:SNrbIpIMlIBYe8AQTLfsDJqlXSaEC64CjulMXzR0kS0=
+github.com/james4k/rcon v0.0.0-20210222224819-34a67ca2b2d6/go.mod h1:1qNVsDcmNQDsAXYfUuF/Z0rtK5eT8x9D6Pi7S3PjXAg=
+github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
+github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
